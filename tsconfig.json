@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "target": "es2017",
+    "useUnknownInCatchVariables": false,
+  },
+  "include": [
+    "lib/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "lib/*-test.ts"
+  ]
+}
